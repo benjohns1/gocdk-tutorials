@@ -10,4 +10,8 @@ Create AWS access key & S3 bucket, set local env vars:
 
 `cd upload`  
 `go build`  
-`upload s3://bucket-name testfile.txt`  
+`./upload s3://bucket-name testfile.txt`
+
+### GCP storage
+Create GCP service account & storage bucket, set local env var to point to credential JSON file:
+ - GOOGLE_APPLICATION_CREDENTIALS
