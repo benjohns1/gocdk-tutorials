@@ -30,5 +30,5 @@ Create Azure storage blob container, set local env vars:
 
 ## Wire Tutorial
 Run through of the Wire tutorial: https://github.com/google/wire/blob/master/_tutorial/README.md  
-Initial greeter without wire: fdeb6e5c97d3ab66dca1d07e08d7405d4bf02ed6
-Adding Wire to greeter: 87c863180dd9d4c1007207cd34dda04861ef7edd
+Initial greeter without wire: [fdeb6e5](commit/fdeb6e5c97d3ab66dca1d07e08d7405d4bf02ed6)  
+Adding Wire to greeter: [87c8631](commit/87c863180dd9d4c1007207cd34dda04861ef7edd)  
