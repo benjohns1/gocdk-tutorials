@@ -2,6 +2,9 @@
 Run through of the Go Cloud Development tutorials https://gocloud.dev/tutorials/
 
 ## CLI Upload
+Tutorial: https://gocloud.dev/tutorials/cli-uploader/  
+
+Run it:  
 `cd upload`  
 `go build`  
 ### AWS bucket storage
@@ -24,3 +27,6 @@ Create Azure storage blob container, set local env vars:
  - AZURE_STORAGE_KEY
 
 `./upload azblob://bucket-name testfile.txt`
+
+## Wire Tutorial
+Run through of the Wire tutorial: https://github.com/google/wire/blob/master/_tutorial/README.md
