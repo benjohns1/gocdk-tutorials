@@ -31,4 +31,6 @@ Create Azure storage blob container, set local env vars:
 ## Wire Tutorial
 Run through of the Wire tutorial: https://github.com/google/wire/blob/master/_tutorial/README.md  
 1. Initial greeter without wire: [fdeb6e5](https://github.com/benjohns1/gocdk-tutorials/commit/fdeb6e5c97d3ab66dca1d07e08d7405d4bf02ed6)  
-1. Adding Wire to greeter: [87c8631](https://github.com/benjohns1/gocdk-tutorials/commit/87c863180dd9d4c1007207cd34dda04861ef7edd)  
+2. Adding Wire to greeter: [87c8631](https://github.com/benjohns1/gocdk-tutorials/commit/87c863180dd9d4c1007207cd34dda04861ef7edd)  
+3. Grumpy greeter: [069366a](https://github.com/benjohns1/gocdk-tutorials/commit/069366a1c33fa731349139fbf314251f12243f55)
+4. Pass phrase parameter: [d815cbd](https://github.com/benjohns1/gocdk-tutorials/commit/d815cbd76868b21735336efa4802df5acb2720b8)
