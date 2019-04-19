@@ -52,5 +52,8 @@ Getting started - AWS: https://learn.hashicorp.com/terraform/?track=getting-star
 7. Change AMI in `terraform.tf`, run `terraform apply`, then `yes`
 8. `terraform show`
 9. `terraform destroy`, then `yes`
-10. Dependencies, provision: `git checkout master`
+10. Dependencies, provision: `git checkout 3f54013`
 11. `terraform apply`
+12. Variables, outputs: `git checkout master`
+13. Rename `terraform.tfvars.default` to `terraform.tfvars`
+14. `terraform apply`
