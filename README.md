@@ -43,11 +43,14 @@ Run it:
 ## Terraform AWS Getting Started
 Getting started - AWS: https://learn.hashicorp.com/terraform/?track=getting-started#getting-started
 
-1. Create AWS access key, store locally in a default location (e.g. ~/.aws/credentials or AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY environment variables)
+1. Create AWS access key, store locally in a default location (e.g. `~/.aws/credentials`, or AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY environment variables)
 2. `choco install terraform` (if needed)
-3. `cd terraform-getting-started-aws`
-4. `terraform init`
-5. `terraform apply`, then `yes`
-6. Change AMI in `terraform.tf`, run `terraform apply`, then `yes`
-7. `terraform show`
-8. `terraform destroy`, then `yes`
+3. Build, change, destroy: `git checkout b0b013a`
+4. `cd terraform-getting-started-aws`
+5. `terraform init`
+6. `terraform apply`, then `yes`
+7. Change AMI in `terraform.tf`, run `terraform apply`, then `yes`
+8. `terraform show`
+9. `terraform destroy`, then `yes`
+10. Dependencies, provision: `git checkout master`
+11. `terraform apply`

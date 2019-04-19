@@ -1,11 +1,14 @@
+# App-specific
+/upload/upload
+/wiretut/wiretut
+/terraform-getting-started-aws/ip_address.txt
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-/upload/upload
-/wiretut/wiretut
 
 # Test binary, build with `go test -c`
 *.test
