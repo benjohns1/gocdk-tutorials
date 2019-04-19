@@ -14,5 +14,9 @@
 *.out
 
 # IDE
-/.vscode
+.vscode
 */debug
+
+# Terraform
+.terraform
+*.tfvars
