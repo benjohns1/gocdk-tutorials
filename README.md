@@ -41,7 +41,8 @@ Run it:
 `./wiretut`
 
 ## Terraform AWS Getting Started
-Getting started - AWS: https://learn.hashicorp.com/terraform/?track=getting-started#getting-started
+Getting started - AWS: https://learn.hashicorp.com/terraform/?track=getting-started#getting-started  
+WARNING: Will incur AWS resource cost
 
 1. Create AWS access key, store locally in a default location (e.g. `~/.aws/credentials`, or AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY environment variables)
 2. `choco install terraform` (if needed)
@@ -54,6 +55,12 @@ Getting started - AWS: https://learn.hashicorp.com/terraform/?track=getting-star
 9. `terraform destroy`, then `yes`
 10. Dependencies, provision: `git checkout 3f54013`
 11. `terraform apply`
-12. Variables, outputs: `git checkout master`
+12. Variables, outputs: `git checkout 5c3a5d4`
 13. Rename `terraform.tfvars.default` to `terraform.tfvars`
 14. `terraform apply`
+15. `terraform destroy`
+16. Modules: `git checkout master`
+17. `cd ../terraform-getting-started-modules`
+18. `terraform init`
+19. `terraform apply`
+20. `terraform destroy`
