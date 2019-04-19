@@ -7,21 +7,26 @@ import (
 	"time"
 )
 
+// Message string
 type Message string
 
+// Greeter struct
 type Greeter struct {
 	Message
 	Grumpy bool
 }
 
+// Event struct
 type Event struct {
 	Greeter
 }
 
+// NewMessage creates a new message string
 func NewMessage(phrase string) Message {
 	return Message(phrase)
 }
 
+// NewGreeter creates a new message struct
 func NewGreeter(m Message) Greeter {
 	var grumpy bool
 	if time.Now().Unix()%2 == 0 {
@@ -30,6 +35,7 @@ func NewGreeter(m Message) Greeter {
 	return Greeter{Message: m, Grumpy: grumpy}
 }
 
+// Greet returns a message
 func (g Greeter) Greet() Message {
 	if g.Grumpy {
 		return Message("Go away!")
@@ -37,6 +43,7 @@ func (g Greeter) Greet() Message {
 	return g.Message
 }
 
+// NewEvent creates a new event struct
 func NewEvent(g Greeter) (Event, error) {
 	if g.Grumpy {
 		return Event{}, errors.New("could not create event: event greeter is grumpy")
@@ -44,6 +51,7 @@ func NewEvent(g Greeter) (Event, error) {
 	return Event{Greeter: g}, nil
 }
 
+// Start greets via std out
 func (e Event) Start() {
 	msg := e.Greeter.Greet()
 	fmt.Println(msg)
