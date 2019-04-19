@@ -59,7 +59,7 @@ WARNING: Will incur AWS resource cost
 13. Rename `terraform.tfvars.default` to `terraform.tfvars`
 14. `terraform apply`
 15. `terraform destroy`
-16. Modules: `git checkout master`
+16. Modules: `git checkout ba058a2`
 17. `cd ../terraform-getting-started-modules`
 18. `terraform init`
 19. `terraform apply`
